@@ -1,0 +1,70 @@
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+    font-weight: 500;
+}
+
+.prediction-up {
+    color: #198754;
+}
+
+.prediction-down {
+    color: #dc3545;
+}
+
+.confidence-meter {
+    height: 8px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.confidence-low {
+    background-color: #ffc107;
+}
+
+.confidence-medium {
+    background-color: #0dcaf0;
+}
+
+.confidence-high {
+    background-color: #198754;
+}
+
+.list-group-item {
+    border-left: none;
+    border-right: none;
+}
+
+.prediction-item {
+    border-left: 4px solid;
+}
+
+.prediction-item.correct {
+    border-left-color: #198754;
+}
+
+.prediction-item.incorrect {
+    border-left-color: #dc3545;
+}
+
+.prediction-item.pending {
+    border-left-color: #0dcaf0;
+}
+
+.badge {
+    font-weight: 500;
+}
+        
